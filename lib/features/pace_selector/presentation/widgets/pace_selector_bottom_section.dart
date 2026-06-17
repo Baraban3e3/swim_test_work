@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
+import 'package:go_router/go_router.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../cubit/pace_cubit.dart';
 import '../cubit/pace_state.dart';
@@ -49,7 +50,7 @@ class PaceSelectorBottomSection extends StatelessWidget {
           const SizedBox(height: 32),
           _buildContinueButton(state, cubit, swimmerLevel, rankColor),
           const SizedBox(height: 16),
-          _buildSkipTextButton(),
+          _buildSkipTextButton(context),
           const SizedBox(height: 16),
         ],
       ),
@@ -103,9 +104,9 @@ class PaceSelectorBottomSection extends StatelessWidget {
     );
   }
 
-  Widget _buildSkipTextButton() {
+  Widget _buildSkipTextButton(BuildContext context) {
     return TextButton(
-      onPressed: () {},
+      onPressed: () => context.push('/users'),
       child: Text(
         'pace_selector.skip_btn'.tr(),
         style: const TextStyle(
