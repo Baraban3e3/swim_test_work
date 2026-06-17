@@ -1,5 +1,6 @@
 # Swim Test App
 
+🎥 **[Watch the Loom Video Walkthrough (5:40)](https://www.loom.com/share/cf0f0a43100a40bd877e1320d410ebc8)**
 This repository contains the Flutter application built for the technical assessment. It features a User List screen that fetches data from an API, a User Details screen, and a custom Pace Selector UI with dynamic logic and localization.
 
 ## State Management
