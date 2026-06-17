@@ -1,0 +1,23 @@
+{
+  "pace_selector": {
+    "header_title": "What's your fastest\n100m freestyle?",
+    "header_subtitle": "This helps us build a more accurate plan\nfor you.",
+    "your_pace": "YOUR PACE",
+    "min_sec_100m": "MIN   :   SEC   /   100M",
+    "that_puts_you_at": "THAT PUTS YOU AT",
+    "levels": {
+      "Elite": "Elite",
+      "Advanced": "Advanced",
+      "Intermediate": "Intermediate",
+      "Beginner": "Beginner"
+    },
+    "continue_btn": "Continue",
+    "skip_btn": "I don't know my pace, skip this",
+    "tap_to_edit": "TAP TO EDIT"
+  },
+  "users_list": {
+    "title": "Users",
+    "retry": "Retry",
+    "no_users": "No users found"
+  }
+}
