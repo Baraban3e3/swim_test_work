@@ -40,6 +40,10 @@ The application calculates the swimmer's level dynamically based on their total 
 - **Intermediate**: 1:31 – 2:30 (91 - 150 seconds)
 - **Beginner**: 2:31 – 4:00 (151 - 240 seconds)
 
+## Localization
+
+The application is fully localized using `easy_localization`. It currently supports **English** (`en`) and **Ukrainian** (`uk`). All text strings are extracted into JSON files in the `assets/translations/` directory, ensuring scalability when adding new languages in the future.
+
 ## Testing
 
 The project includes a robust suite of unit tests verifying all critical layers:
